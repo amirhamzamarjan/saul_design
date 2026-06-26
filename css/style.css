@@ -7,6 +7,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #222831;
+    color: #EEEEEE;
+}
+
+
+
 a {
     text-decoration: none;
 
@@ -41,9 +48,56 @@ h6 {
 .navbar-collapse {
     flex-grow: 0 !important;
 }
-.nav-link{
+
+.nav-link {
     color: #EEEEEE;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #00ADB5;
+}
+
+.heroBtn a:hover{
+    background-color: #393E46;
+    border: none;
+}
+.heroBtn a{
+    background-color: #00ADB5;
+}
+.heroBtn a{
+    padding: 10px 30px;
+    border-radius: 25px;
+}
+
+
+
+
+.heroContent h1{
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+
+.heroPart{
+    padding: 100px 0;
+}
+
+.heroImg img{
+    height: 650px;
+    width: 540;
+    padding-top: ;
+}
+/* .heroPartOne{
+    display: inline-block;
+
+} */
+
+.heroContentAll{
+    display: flex;
+    padding-top: 70px;
+    gap: 20px;
+}
+
+.left-icon img{
+    width: 70px; /* adjust */
 }
