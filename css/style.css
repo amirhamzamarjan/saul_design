@@ -194,3 +194,152 @@ h6 {
     
 }
 
+.contactContent {
+    padding-top: 250px;
+}
+.contactContent h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #EEEEEE;
+}
+.contactContent h2 span{
+    color: #00ADB5;
+}
+
+.contactForm{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 200px;
+    
+}
+
+
+.contactImg img{
+    position: relative;
+    left: 200px;
+    bottom: 60px;
+}
+.contactEliment{
+    position: relative;
+    bottom: 300px;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.input-row {
+    display: flex;
+    gap: 20px;
+
+}
+
+.input-box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.inputBox input,.inputBox textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #242c3d;
+    color: white;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+.inputBox textarea {
+    height: 260px;
+    resize: none;
+}
+
+.send-btn {
+    border: none;
+    background: rgba(57, 62, 70, 0.5);
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: #EEEEEE;
+    transition: .4s;
+    
+}
+
+.send-btn:hover {
+    background-color: #00ADB5;
+    border: none;
+}
+
+
+.contactEliment1{
+    position: relative;
+    bottom: 650px;
+}
+.contactEliment2{
+    position: relative;
+    bottom: 50px;
+
+}
+
+.footerContent ul{
+    display: flex;
+    justify-content: center;
+}
+.footerContent{
+    padding-top: 100px;
+    border-top: 1px solid #00ADB5;
+}
+.footerMenu ol a{
+    color: #EEEEEE;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    transition: .4s;
+}
+
+.footerMenu ol a:hover{
+    color: #00ADB5;
+}
+.footerIcon{
+    margin-top: 50px;
+    
+}
+
+    
+
+.footerIcon ol a{
+    color: #EEEEEE;
+    padding: 20px;
+    background: rgba(57, 62, 70, 0.5);
+    border-radius: 50%;
+    transition: .4s;
+}
+
+
+.footerIcon ol a:hover{
+    background: #00ADB5;
+    
+
+}
+.footerBottom p{
+    color: #EEEEEE;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: end;
+    padding: 50px 95px;
+}
